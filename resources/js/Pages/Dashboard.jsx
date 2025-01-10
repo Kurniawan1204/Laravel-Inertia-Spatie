@@ -16,11 +16,23 @@ export default function Dashboard() {
                 <div className="mx-auto max-w-7xl sm:px-6 lg:px-8">
                     <div className="overflow-hidden bg-white shadow-sm sm:rounded-lg">
                         <div className="p-6 text-gray-900">
-                            You're logged in!
+                            KAMU BERHASIL LOGIN !
                         </div>
                     </div>
                 </div>
-            </div>
+            </div>          
+
+            <div className="py-2">
+                <div className="mx-auto max-w-7xl sm:px-6 lg:px-8">
+                    <div className="overflow-hidden bg-white shadow-sm sm:rounded-lg">
+                        <div className="p-6 text-gray-900">
+                            <p>lorem ipsum dolores usum katiga pancaraoba perubahan 
+                            beberapa musim mulai dari hujan angin , hujan es, hujan lambung dan sebagainya
+                            </p>                            
+                        </div>
+                    </div>
+                </div>
+            </div>          
         </AuthenticatedLayout>
     );
 }
